@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
   <p><em class="red">C</em>odingTutorials.net </p>
  <p class="titleheader"><a href='#page=index'>Home</a></p>
@@ -15,7 +13,7 @@
   <h1 id="h1">Step 1:</h1>
   <h2 id="HTMLP"class="titleheader">HTML(Hyper Text Markup Language)</h2>
   <p id="HTMLL"class="titleheader">HTML will be used to create the pages of your website.</p>
-  <p class="titleheader"><a id="htmllink" href="javascript:document.getElementById('HTML').style.display ='block'; document.getElementById('HTMLP').style.display = 'none';document.getElementById('HTMLL').style.display ='none';document.get
+  <p class="titleheader"><a id="htmllink" href="#tutorial=HTML javascript:document.getElementById('HTML').style.display ='block'; document.getElementById('HTMLP').style.display = 'none';document.getElementById('HTMLL').style.display ='none';document.get
 ElementById('htmllink').style.display ='none';document.getElementById('h1').style.display ='none';">HTML</a>
   <h1>Step 2:</h1>
   <h2 class="titleheader">CSS(Casading Stylesheets)</h2>
@@ -29,5 +27,10 @@ ElementById('htmllink').style.display ='none';document.getElementById('h1').styl
   <h1>HTML Tutorials</h1>
   <p>Choose what you want to learn.</p>
   </div>
+  <script>if(window.location.hash == "#tutorial=HTML%20javascript:document.getElementById('HTML').style.display%20='block';%20document.getElementById('HTMLP').style.display%20=%20'none';document.getElementById('HTMLL').style.display%20='none';document.getElementById('htmllink').style.display%20='none';document.getElementById('h1').style.display%20='none';"){
+      document.getElementById("HTML").style.display = "block";
+      document.getElementById("htmlp").style.display = "none";
+      document.getElementById("HTMLL").style.display ="none";
+    }
 </body>
 </html>
