@@ -3,7 +3,6 @@ function HTML(){
 	document.getElementById("HTMLtutorial").style.display ='block';
 	document.getElementById("Css").style.display ="none";
 	document.getElementById("javascript").style.display ="none";
-	window.location.hash = "#tutorial=HTML";
 }
 function CSS(){
 	document.getElementById("Css").style.display ='none';
@@ -15,7 +14,6 @@ function Javascript(){
    document.getElementById("jscript").style.display = "block";
    document.getElementById("HTM").style.display = "none";
    document.getElementById("Css").style.display ="none";
-   window.location.hash = "#tutorial=JavaScript";
 }
 function paragraphs(){
 	document.getElementById("paragraphs").style.display ="block";
